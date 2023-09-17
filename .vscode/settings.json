@@ -1,4 +1,14 @@
 {
+  // Editor
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
+    "source.organizeImports": false
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
   "eslint.validate": [
     "javascript",
     "javascriptreact",
